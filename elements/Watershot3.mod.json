@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Items.HEART_OF_THE_SEA"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.drowned.shoot"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 0.1,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsEntity": {
+      "name": "Watershot3ProjectileHitsLivingEntity"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+
+{
+  "parent": "ars_artillery:displaysettings/runicstone.item",
+  "textures": {
+    "particle": "ars_artillery:block/abjurationstone"
+  }
+}
