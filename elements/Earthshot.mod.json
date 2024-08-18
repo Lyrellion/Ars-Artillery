@@ -7,7 +7,7 @@
     },
     "showParticles": false,
     "actionSound": {
-      "value": "entity.drowned.shoot"
+      "value": "entity.slime.squish"
     },
     "igniteFire": false,
     "power": 1.0,

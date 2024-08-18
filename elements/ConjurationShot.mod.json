@@ -7,7 +7,7 @@
     },
     "showParticles": false,
     "actionSound": {
-      "value": "entity.arrow.shoot"
+      "value": "entity.endermen.teleport"
     },
     "igniteFire": false,
     "power": 1.0,

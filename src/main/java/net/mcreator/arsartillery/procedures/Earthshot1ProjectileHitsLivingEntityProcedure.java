@@ -15,8 +15,8 @@ public class Earthshot1ProjectileHitsLivingEntityProcedure {
 			return;
 		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.IN_WALL)), 1);
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 100, 1, false, true));
+			_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 100, 0, false, true));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 20, 1, false, true));
+			_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 20, 0, false, true));
 	}
 }

@@ -146,7 +146,7 @@ public class AbjurationTurret1Entity extends Animal implements GeoEntity {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		AbjurationAuraProcedure.execute();
+		AbjurationAuraProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 		this.refreshDimensions();
 	}
 

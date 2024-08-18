@@ -7,7 +7,7 @@
     },
     "showParticles": false,
     "actionSound": {
-      "value": "entity.arrow.shoot"
+      "value": "block.amethyst_block.resonate"
     },
     "igniteFire": false,
     "power": 1.0,
@@ -15,11 +15,8 @@
     "knockback": 0,
     "entityModel": "Default",
     "customModelTexture": "",
-    "onHitsBlock": {
-      "name": "ConjurationShotProjectileHitsLivingEntity"
-    },
     "onHitsEntity": {
-      "name": "ConjurationShotProjectileHitsLivingEntity"
+      "name": "ManipulationShotProjectileHitsLivingEntity"
     }
   }
 }

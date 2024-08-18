@@ -39,6 +39,7 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 
+import net.mcreator.arsartillery.procedures.AbjurationAuraProcedure;
 import net.mcreator.arsartillery.init.ArsArtilleryModItems;
 import net.mcreator.arsartillery.init.ArsArtilleryModEntities;
 
@@ -145,6 +146,7 @@ public class AbjurationTurret2Entity extends Animal implements GeoEntity {
 	@Override
 	public void baseTick() {
 		super.baseTick();
+		AbjurationAuraProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 		this.refreshDimensions();
 	}
 

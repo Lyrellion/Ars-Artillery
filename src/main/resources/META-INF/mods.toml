@@ -4,11 +4,11 @@ license="Not specified"
 
 [[mods]]
 modId="ars_artillery"
-version="1.1.4"
+version="1.1.5"
 displayName="Ars Artillery"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="thehi, MCreator"
+authors="Lyrellion, MCreator"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

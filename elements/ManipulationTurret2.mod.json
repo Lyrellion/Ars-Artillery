@@ -27,9 +27,11 @@
       "value": -13261,
       "falpha": 0.0
     },
-    "creativeTab": {
-      "value": "MISC"
-    },
+    "creativeTabs": [
+      {
+        "value": "MISC"
+      }
+    ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
@@ -79,8 +81,8 @@
     "immuneToCactus": false,
     "immuneToDrowning": true,
     "immuneToLightning": false,
-    "immuneToPotions": true,
-    "immuneToPlayer": true,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
     "immuneToExplosion": false,
     "immuneToTrident": false,
     "immuneToAnvil": false,
@@ -134,13 +136,13 @@
     "headMovement": false,
     "eyeHeight": false,
     "breedTriggerItems": [],
-    "ranged": false,
+    "ranged": true,
     "rangedAttackItem": {
-      "value": ""
+      "value": "Blocks.WEB"
     },
-    "rangedItemType": "Default item",
+    "rangedItemType": "ManipulationShot",
     "rangedAttackInterval": 20,
-    "rangedAttackRadius": 10.0,
+    "rangedAttackRadius": 16.0,
     "height": 1.0,
     "raidSpawnsCount": [
       4,

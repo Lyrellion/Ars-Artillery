@@ -30,6 +30,7 @@
     "creativeTab": {
       "value": "MISC"
     },
+    "creativeTabs": [],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
@@ -103,6 +104,9 @@
     },
     "raidCelebrationSound": {
       "value": ""
+    },
+    "onMobTickUpdate": {
+      "name": "AbjurationAura"
     },
     "hasAI": true,
     "aiBase": "(none)",
