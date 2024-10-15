@@ -1,0 +1,11 @@
+{
+  "values": [
+    "ars_artillery:airstone",
+    "ars_artillery:earthstone",
+    "ars_artillery:firestone",
+    "ars_artillery:waterstone",
+    "ars_artillery:abjurationstone",
+    "ars_artillery:conjurationstone",
+    "ars_artillery:manipulationstone"
+  ]
+}

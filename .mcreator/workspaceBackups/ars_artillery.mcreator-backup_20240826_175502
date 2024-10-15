@@ -1590,6 +1590,28 @@
           "src/main/java/net/mcreator/arsartillery/entity/ManipulationShotEntity.java"
         ]
       }
+    },
+    {
+      "name": "ManipulationShotProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manipulation_shot_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arsartillery/procedures/ManipulationShotProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
