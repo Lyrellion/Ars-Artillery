@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 73,
   "_type": "animatedentity",
   "definition": {
     "mobName": "Manipulation Turret Tier 3",
@@ -144,6 +144,7 @@
     "rangedAttackInterval": 10,
     "rangedAttackRadius": 24.0,
     "height": 1.0,
+    "attackRate": 7,
     "raidSpawnsCount": [
       4,
       3,

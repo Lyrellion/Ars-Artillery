@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 73,
   "_type": "animatedentity",
   "definition": {
     "mobName": "Fire Turret Tier 1",
@@ -140,6 +140,7 @@
     "rangedAttackInterval": 60,
     "rangedAttackRadius": 8.0,
     "height": 1.0,
+    "attackRate": 7,
     "raidSpawnsCount": [
       4,
       3,

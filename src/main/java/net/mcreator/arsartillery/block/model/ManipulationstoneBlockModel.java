@@ -9,16 +9,16 @@ import net.mcreator.arsartillery.block.entity.ManipulationstoneTileEntity;
 public class ManipulationstoneBlockModel extends GeoModel<ManipulationstoneTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(ManipulationstoneTileEntity animatable) {
-		return new ResourceLocation("ars_artillery", "animations/runicstone.animation.json");
+		return ResourceLocation.parse("ars_artillery:animations/runicstone.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(ManipulationstoneTileEntity animatable) {
-		return new ResourceLocation("ars_artillery", "geo/runicstone.geo.json");
+		return ResourceLocation.parse("ars_artillery:geo/runicstone.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(ManipulationstoneTileEntity animatable) {
-		return new ResourceLocation("ars_artillery", "textures/block/manipulationstone.png");
+		return ResourceLocation.parse("ars_artillery:textures/block/manipulationstone.png");
 	}
 }

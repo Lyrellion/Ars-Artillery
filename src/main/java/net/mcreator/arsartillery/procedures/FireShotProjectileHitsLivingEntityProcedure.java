@@ -6,6 +6,6 @@ public class FireShotProjectileHitsLivingEntityProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		entity.setSecondsOnFire(5);
+		entity.igniteForSeconds(5);
 	}
 }

@@ -9,16 +9,16 @@ import net.mcreator.arsartillery.block.display.AirstoneDisplayItem;
 public class AirstoneDisplayModel extends GeoModel<AirstoneDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(AirstoneDisplayItem animatable) {
-		return new ResourceLocation("ars_artillery", "animations/runicstone.animation.json");
+		return ResourceLocation.parse("ars_artillery:animations/runicstone.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(AirstoneDisplayItem animatable) {
-		return new ResourceLocation("ars_artillery", "geo/runicstone.geo.json");
+		return ResourceLocation.parse("ars_artillery:geo/runicstone.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(AirstoneDisplayItem entity) {
-		return new ResourceLocation("ars_artillery", "textures/block/airstone.png");
+		return ResourceLocation.parse("ars_artillery:textures/block/airstone.png");
 	}
 }

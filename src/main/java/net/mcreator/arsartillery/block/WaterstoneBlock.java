@@ -4,6 +4,7 @@ package net.mcreator.arsartillery.block;
 import org.checkerframework.checker.units.qual.s;
 
 import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -26,11 +27,18 @@ import javax.annotation.Nullable;
 import java.util.List;
 import java.util.Collections;
 
+import com.mojang.serialization.MapCodec;
+
 public class WaterstoneBlock extends BaseEntityBlock implements EntityBlock {
 	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, (int) 1);
+	public static final MapCodec<WaterstoneBlock> CODEC = simpleCodec(properties -> new WaterstoneBlock());
+
+	public MapCodec<WaterstoneBlock> codec() {
+		return CODEC;
+	}
 
 	public WaterstoneBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(1f, 10f).lightLevel(s -> 1));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1f, 10f).lightLevel(s -> 1));
 	}
 
 	@Override

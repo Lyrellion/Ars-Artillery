@@ -9,16 +9,16 @@ import net.mcreator.arsartillery.block.entity.WaterstoneTileEntity;
 public class WaterstoneBlockModel extends GeoModel<WaterstoneTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(WaterstoneTileEntity animatable) {
-		return new ResourceLocation("ars_artillery", "animations/runicstone.animation.json");
+		return ResourceLocation.parse("ars_artillery:animations/runicstone.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(WaterstoneTileEntity animatable) {
-		return new ResourceLocation("ars_artillery", "geo/runicstone.geo.json");
+		return ResourceLocation.parse("ars_artillery:geo/runicstone.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(WaterstoneTileEntity animatable) {
-		return new ResourceLocation("ars_artillery", "textures/block/waterstone.png");
+		return ResourceLocation.parse("ars_artillery:textures/block/waterstone.png");
 	}
 }

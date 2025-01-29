@@ -1,8 +1,8 @@
 package net.mcreator.arsartillery.init;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.entity.living.LivingEvent;
+import net.neoforged.neoforge.event.tick.EntityTickEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.mcreator.arsartillery.entity.WaterTurret3Entity;
 import net.mcreator.arsartillery.entity.WaterTurret2Entity;
@@ -27,10 +27,10 @@ import net.mcreator.arsartillery.entity.AbjurationTurret3Entity;
 import net.mcreator.arsartillery.entity.AbjurationTurret2Entity;
 import net.mcreator.arsartillery.entity.AbjurationTurret1Entity;
 
-@Mod.EventBusSubscriber
+@EventBusSubscriber
 public class EntityAnimationFactory {
 	@SubscribeEvent
-	public static void onEntityTick(LivingEvent.LivingTickEvent event) {
+	public static void onEntityTick(EntityTickEvent.Pre event) {
 		if (event != null && event.getEntity() != null) {
 			if (event.getEntity() instanceof FireTurret1Entity syncable) {
 				String animation = syncable.getSyncedAnimation();

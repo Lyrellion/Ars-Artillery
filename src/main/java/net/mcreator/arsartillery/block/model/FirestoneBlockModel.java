@@ -9,16 +9,16 @@ import net.mcreator.arsartillery.block.entity.FirestoneTileEntity;
 public class FirestoneBlockModel extends GeoModel<FirestoneTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(FirestoneTileEntity animatable) {
-		return new ResourceLocation("ars_artillery", "animations/runicstone.animation.json");
+		return ResourceLocation.parse("ars_artillery:animations/runicstone.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(FirestoneTileEntity animatable) {
-		return new ResourceLocation("ars_artillery", "geo/runicstone.geo.json");
+		return ResourceLocation.parse("ars_artillery:geo/runicstone.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(FirestoneTileEntity animatable) {
-		return new ResourceLocation("ars_artillery", "textures/block/firestone.png");
+		return ResourceLocation.parse("ars_artillery:textures/block/firestone.png");
 	}
 }

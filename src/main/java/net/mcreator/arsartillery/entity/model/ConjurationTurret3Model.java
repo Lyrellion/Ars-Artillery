@@ -9,17 +9,17 @@ import net.mcreator.arsartillery.entity.ConjurationTurret3Entity;
 public class ConjurationTurret3Model extends GeoModel<ConjurationTurret3Entity> {
 	@Override
 	public ResourceLocation getAnimationResource(ConjurationTurret3Entity entity) {
-		return new ResourceLocation("ars_artillery", "animations/turret3.animation.json");
+		return ResourceLocation.parse("ars_artillery:animations/turret3.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(ConjurationTurret3Entity entity) {
-		return new ResourceLocation("ars_artillery", "geo/turret3.geo.json");
+		return ResourceLocation.parse("ars_artillery:geo/turret3.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(ConjurationTurret3Entity entity) {
-		return new ResourceLocation("ars_artillery", "textures/entities/" + entity.getTexture() + ".png");
+		return ResourceLocation.parse("ars_artillery:textures/entities/" + entity.getTexture() + ".png");
 	}
 
 }

@@ -9,16 +9,16 @@ import net.mcreator.arsartillery.block.display.ConjurationstoneDisplayItem;
 public class ConjurationstoneDisplayModel extends GeoModel<ConjurationstoneDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(ConjurationstoneDisplayItem animatable) {
-		return new ResourceLocation("ars_artillery", "animations/runicstone.animation.json");
+		return ResourceLocation.parse("ars_artillery:animations/runicstone.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(ConjurationstoneDisplayItem animatable) {
-		return new ResourceLocation("ars_artillery", "geo/runicstone.geo.json");
+		return ResourceLocation.parse("ars_artillery:geo/runicstone.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(ConjurationstoneDisplayItem entity) {
-		return new ResourceLocation("ars_artillery", "textures/block/conjurationstone.png");
+		return ResourceLocation.parse("ars_artillery:textures/block/conjurationstone.png");
 	}
 }

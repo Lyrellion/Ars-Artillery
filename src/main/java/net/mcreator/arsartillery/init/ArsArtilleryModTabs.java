@@ -4,10 +4,10 @@
  */
 package net.mcreator.arsartillery.init;
 
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
@@ -15,7 +15,7 @@ import net.minecraft.core.registries.Registries;
 
 import net.mcreator.arsartillery.ArsArtilleryMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class ArsArtilleryModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ArsArtilleryMod.MODID);
 
@@ -29,8 +29,6 @@ public class ArsArtilleryModTabs {
 			tabData.accept(ArsArtilleryModBlocks.ABJURATIONSTONE.get().asItem());
 			tabData.accept(ArsArtilleryModBlocks.CONJURATIONSTONE.get().asItem());
 			tabData.accept(ArsArtilleryModBlocks.MANIPULATIONSTONE.get().asItem());
-		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-			tabData.accept(ArsArtilleryModItems.TURRET_SCRAP.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(ArsArtilleryModItems.FIRE_TURRET_CRATE.get());
 			tabData.accept(ArsArtilleryModItems.AIR_TURRET_CRATE.get());
@@ -41,6 +39,8 @@ public class ArsArtilleryModTabs {
 			tabData.accept(ArsArtilleryModItems.ABJURATION_TURRET_CRATE.get());
 			tabData.accept(ArsArtilleryModItems.MANIPULATION_TURRET_CRATE.get());
 			tabData.accept(ArsArtilleryModItems.TIER_3_UPGRADE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(ArsArtilleryModItems.TURRET_SCRAP.get());
 		}
 	}
 }
