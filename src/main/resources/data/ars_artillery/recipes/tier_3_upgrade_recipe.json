@@ -8,17 +8,17 @@
   ],
   "key": {
     "a": {
-      "item": "ars_nouveau:source_gem_block"
+      "id": "ars_nouveau:source_gem_block"
     },
     "b": {
-      "item": "ars_nouveau:imbuement_chamber"
+      "id": "ars_nouveau:imbuement_chamber"
     },
     "c": {
-      "item": "minecraft:nether_star"
+      "id": "minecraft:nether_star"
     }
   },
   "result": {
-    "item": "ars_artillery:tier_3_upgrade",
+    "id": "ars_artillery:tier_3_upgrade",
     "count": 1
   }
 }

@@ -8,14 +8,14 @@
   ],
   "key": {
     "a": {
-      "item": "ars_nouveau:sourcestone"
+      "id": "ars_nouveau:sourcestone"
     },
     "b": {
-      "item": "ars_nouveau:water_essence"
+      "id": "ars_nouveau:water_essence"
     }
   },
   "result": {
-    "item": "ars_artillery:waterstone",
+    "id": "ars_artillery:waterstone",
     "count": 8
   }
 }

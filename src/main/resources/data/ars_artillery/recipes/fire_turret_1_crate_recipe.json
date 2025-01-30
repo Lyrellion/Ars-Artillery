@@ -2,25 +2,25 @@
   "type": "ars_nouveau:enchanting_apparatus",
   "keepNbtOfReagent": false,
   "output": {
-    "item": "ars_artillery:fire_turret_crate"
+    "id": "ars_artillery:fire_turret_crate"
   },
   "pedestalItems": [
     {
-      "item": "ars_artillery:firestone"
+      "id": "ars_artillery:firestone"
     },
     {
-      "item": "ars_artillery:firestone"
+      "id": "ars_artillery:firestone"
     },
     {
-      "item": "ars_artillery:firestone"
+      "id": "ars_artillery:firestone"
     },
     {
-      "item": "ars_nouveau:spell_bow"
+      "id": "ars_nouveau:spell_bow"
     }
   ],
   "reagent": [
     {
-      "item": "ars_nouveau:imbuement_chamber"
+      "id": "ars_nouveau:imbuement_chamber"
     }
   ],
   "sourceCost": 1000

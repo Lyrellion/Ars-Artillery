@@ -8,14 +8,14 @@
   ],
   "key": {
     "a": {
-      "item": "ars_nouveau:sourcestone"
+      "id": "ars_nouveau:sourcestone"
     },
     "b": {
-      "item": "ars_nouveau:fire_essence"
+      "id": "ars_nouveau:fire_essence"
     }
   },
   "result": {
-    "item": "ars_artillery:firestone",
+    "id": "ars_artillery:firestone",
     "count": 8
   }
 }

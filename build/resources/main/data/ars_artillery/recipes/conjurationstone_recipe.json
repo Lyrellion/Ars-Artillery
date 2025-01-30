@@ -8,14 +8,14 @@
   ],
   "key": {
     "a": {
-      "item": "ars_nouveau:sourcestone"
+      "id": "ars_nouveau:sourcestone"
     },
     "b": {
-      "item": "ars_nouveau:conjuration_essence"
+      "id": "ars_nouveau:conjuration_essence"
     }
   },
   "result": {
-    "item": "ars_artillery:conjurationstone",
+    "id": "ars_artillery:conjurationstone",
     "count": 8
   }
 }

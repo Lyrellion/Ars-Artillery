@@ -8,17 +8,17 @@
   ],
   "key": {
     "a": {
-      "item": "ars_nouveau:source_gem"
+      "id": "ars_nouveau:source_gem"
     },
     "b": {
-      "item": "ars_nouveau:imbuement_chamber"
+      "id": "ars_nouveau:imbuement_chamber"
     },
     "c": {
-      "item": "minecraft:blaze_rod"
+      "id": "minecraft:blaze_rod"
     }
   },
   "result": {
-    "item": "ars_artillery:tier_2_upgrade",
+    "id": "ars_artillery:tier_2_upgrade",
     "count": 1
   }
 }

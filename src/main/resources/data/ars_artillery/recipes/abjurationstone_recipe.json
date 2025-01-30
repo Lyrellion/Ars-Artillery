@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [
-    "aaa",
-    "aba",
-    "aaa"
-  ],
   "key": {
     "a": {
-      "item": "ars_nouveau:sourcestone"
+      "id": "ars_nouveau:sourcestone"
     },
     "b": {
-      "item": "ars_nouveau:abjuration_essence"
+      "id": "ars_nouveau:abjuration_essence"
     }
   },
+  "pattern": [
+  "aaa",
+  "aba",
+  "aaa"
+  ],
   "result": {
-    "item": "ars_artillery:abjurationstone",
+    "id": "ars_artillery:abjurationstone",
     "count": 8
   }
 }
