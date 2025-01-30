@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "key": {
+    "a": {
+      "item": "ars_nouveau:sourcestone"
+    },
+    "b": {
+      "item": "ars_nouveau:manipulation_essence"
+    }
+  },
   "pattern": [
     "aaa",
     "aba",
     "aaa"
   ],
-  "key": {
-    "a": {
-      "id": "ars_nouveau:sourcestone"
-    },
-    "b": {
-      "id": "ars_nouveau:manipulation_essence"
-    }
-  },
   "result": {
-    "id": "ars_artillery:manipulationstone",
-    "count": 8
+    "count": 8,
+    "id": "ars_artillery:manipulationstone"
   }
 }

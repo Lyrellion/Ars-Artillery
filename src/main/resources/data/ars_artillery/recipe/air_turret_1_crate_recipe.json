@@ -1,27 +1,28 @@
 {
   "type": "ars_nouveau:enchanting_apparatus",
   "keepNbtOfReagent": false,
-  "output": {
-    "id": "ars_artillery:air_turret_crate"
-  },
   "pedestalItems": [
     {
-      "id": "ars_artillery:airstone"
+      "item": "ars_artillery:airstone"
     },
     {
-      "id": "ars_artillery:airstone"
+      "item": "ars_artillery:airstone"
     },
     {
-      "id": "ars_artillery:airstone"
+      "item": "ars_artillery:airstone"
     },
     {
-      "id": "ars_nouveau:spell_bow"
+      "item": "ars_nouveau:spell_bow"
     }
   ],
   "reagent": [
     {
-      "id": "ars_nouveau:imbuement_chamber"
+      "item": "ars_nouveau:imbuement_chamber"
     }
   ],
+  "result": {
+    "count": 1,
+    "id": "ars_artillery:air_turret_crate"
+  },
   "sourceCost": 1000
 }

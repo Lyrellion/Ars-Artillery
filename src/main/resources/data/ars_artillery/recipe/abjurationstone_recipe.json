@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "a": {
-      "id": "ars_nouveau:sourcestone"
+      "item": "ars_nouveau:sourcestone"
     },
     "b": {
-      "id": "ars_nouveau:abjuration_essence"
+      "item": "ars_nouveau:abjuration_essence"
     }
   },
   "pattern": [
@@ -15,7 +15,7 @@
   "aaa"
   ],
   "result": {
-    "id": "ars_artillery:abjurationstone",
-    "count": 8
+    "count": 8,
+    "id": "ars_artillery:abjurationstone"
   }
 }

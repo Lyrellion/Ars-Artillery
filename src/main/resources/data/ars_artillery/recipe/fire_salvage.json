@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "key": {
+    "a": {
+      "item": "ars_artillery:turret_scrap"
+    },
+    "b": {
+      "item": "ars_nouveau:fire_essence"
+    }
+  },
   "pattern": [
     " a ",
     "aba",
     " a "
   ],
-  "key": {
-    "a": {
-      "id": "ars_artillery:turret_scrap"
-    },
-    "b": {
-      "id": "ars_nouveau:fire_essence"
-    }
-  },
   "result": {
-    "id": "ars_artillery:fire_turret_crate",
-    "count": 1
+    "count": 1,
+    "id": "ars_artillery:fire_turret_crate"
   }
 }

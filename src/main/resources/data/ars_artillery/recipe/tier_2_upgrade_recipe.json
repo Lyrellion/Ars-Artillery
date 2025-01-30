@@ -1,24 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "key": {
+    "a": {
+      "item": "ars_nouveau:source_gem"
+    },
+    "b": {
+      "item": "ars_nouveau:imbuement_chamber"
+    },
+    "c": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
   "pattern": [
     "ca ",
     "aba",
     " a "
   ],
-  "key": {
-    "a": {
-      "id": "ars_nouveau:source_gem"
-    },
-    "b": {
-      "id": "ars_nouveau:imbuement_chamber"
-    },
-    "c": {
-      "id": "minecraft:blaze_rod"
-    }
-  },
   "result": {
-    "id": "ars_artillery:tier_2_upgrade",
-    "count": 1
+    "count": 1,
+    "id": "ars_artillery:tier_2_upgrade"
   }
 }
